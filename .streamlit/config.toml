@@ -1,0 +1,18 @@
+[theme]
+base = "dark"
+primaryColor = "#7fd4ff"
+backgroundColor = "#0b1220"
+secondaryBackgroundColor = "#10233d"
+textColor = "#f5f7fa"
+
+[server]
+headless = true
+enableCORS = false
+# Cloudera AI Workbench proxies Applications through its own domain/subdomain
+# routing; XSRF protection's cookie handling doesn't play well with that
+# proxy layer, so it's disabled here the same way Cloudera's own Streamlit
+# example Applications do it.
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false

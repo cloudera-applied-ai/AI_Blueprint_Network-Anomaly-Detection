@@ -1,0 +1,1115 @@
+================================================================================
+================================================================================
+
+            Third-Party Software for Network Anomaly Detection
+
+--------------------------------------------------------------------------------
+
+The product or component covered by this notice file is subject to copyright owned by Cloudera, the Apache Software Foundation or other third parties, as applicable, and the copyright owner reserves all rights.
+
+The following notices and licenses apply to various third party software packages, including open source software packages, which are distributed with the product identified in this file or accompanying this file.  Such product (i) may not include all of the referenced third party software packages or include only a portion of a given package and (ii) may also include other components, which may contain additional third party software packages as identified in their separate respective notice files.
+
+To the extent required by the license associated with a third party software package, Cloudera, Inc. will provide a copy of the third party software package’s source code upon request and at a reasonable fee.  All requests for source code must be made in writing and mailed to "Cloudera, Inc., ATTN: Legal Dept.,5470 Great America Pkwy, Santa Clara, CA 95054" and include the following information: (i) the name and version number of the covered binary, (ii) name and the version number of the Cloudera product containing the covered binary, (iii) your name, (iv) your company or organization name (if applicable), (v) the license under which you are requesting the source code to be provided, and (vi) your return mailing and email address (if available).
+
+The following 3rd-party software packages may be used by or distributed with agentic-soc-demo (RELENG-37872). Any information relevant to third-party vendors listed below are collected using common, reasonable means.
+
+Date generated: 2026-10-7
+
+Revision ID: b119ffe25b0d410cee91c649274eb0552d81ca8b
+
+================================================================================
+================================================================================
+
+
+
+================================================================================
+
+                                  Dependencies
+
+================================================================================
+
+- openai (1.40.0) [Apache-2.0]
+- pandas (2.0) [BSD-3-Clause, MIT, Apache-2.0, mit-nagy, Python-2.0, BSD-2-Clause]
+- streamlit (1.37.0) [Apache-2.0, 0BSD, BSD-3-Clause, MIT]
+
+--------------------------------------------------------------------------------
+Package Title: openai (1.40.0)
+
+Package Locator: pip+openai$1.40.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+The official Python library for the openai API
+
+* Declared Licenses *
+Apache-2.0
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2024 OpenAI
+--------------------------------------------------------------------------------
+
+* Copyrights *
+Apache-2.0
+- Copyright (c) 2024 OpenAI
+
+* Package Info *
+
+Authors: OpenAI <support@openai.com>
+Package Manager: Pip
+Project URL: https://pypi.org/project/openai/
+Package Download URL: https://files.pythonhosted.org/packages/37/72/92c2703c9a74a0914a7bfb548394933aca9e0fa772c51f547a6344bd4f23/openai-1.40.0.tar.gz
+Dependency Path: openai
+
+--------------------------------------------------------------------------------
+Package Title: pandas (2.0)
+
+Package Locator: pip+pandas$2.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+Powerful data structures for data analysis, time series, and statistics
+
+* Declared Licenses *
+BSD-3-Clause
+--------------------------------------------------------------------------------
+File matches:
+- LICENSE
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+  - Copyright (c) 2011-2023 Open source contributors.
+- LICENSES/DATEUTIL_LICENSE
+  - Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+  - Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+  - Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+  - Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+  - Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- LICENSES/NUMPY_LICENSE
+  - Copyright (c) 2005-2011 NumPy Developers.
+- LICENSES/OTHER
+  - Copyright (c) 2010 Albert Sweigart
+  - Copyright (c) 2010-2012 Archipel Asset Management AB.
+  - Copyright (c) 2012 Google Inc.
+- LICENSES/SCIPY_LICENSE
+  - Copyright (c) 2001, 2002 Enthought, Inc.
+  - Copyright (c) 2003-2012 SciPy Developers.
+- LICENSES/ULTRAJSON_LICENSE
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights reserved.
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas.egg-info/PKG-INFO
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+  - Copyright (c) 2011-2023 Open source contributors.
+- pandas/_libs/src/parser/tokenizer.c
+  - Copyright (c) 2002 Michael Ringgaard. All rights reserved.
+  - Copyright (c) 2012 Lambda Foundry, Inc., except where noted
+- pandas/_libs/src/ujson/lib/ultrajson.h
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights reserved.
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/ujson/lib/ultrajsondec.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/ujson/lib/ultrajsonenc.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/ujson/python/JSONtoObj.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights reserved.
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/ujson/python/objToJSON.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/ujson/python/ujson.c
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights reserved.
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/_libs/src/ujson/python/version.h
+  - Copyright (c) 1988-1993 The Regents of the University of California.
+  - Copyright (c) 1994 Sun Microsystems, Inc.
+  - Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights reserved.
+  - Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- pandas/util/version/__init__.py
+- PKG-INFO
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+  - Copyright (c) 2011-2023 Open source contributors.
+--------------------------------------------------------------------------------
+
+* Other Licenses *
+MIT, Apache-2.0, mit-nagy, Python-2.0, BSD-2-Clause
+
+* MIT *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/HAVEN_LICENSE
+  - Copyright (c) 2019 Hadley Wickham; RStudio; and Evan Miller
+- LICENSES/HAVEN_MIT
+- LICENSES/KLIB_LICENSE
+  - Copyright (c) 2008 Attractive Chaos <attractor@live.co.uk>
+- LICENSES/MUSL_LICENSE
+  - Copyright (c)  Some source modules may fall in
+  - Copyright (c)  comments are original works
+  - Copyright (c)  status.
+  - Copyright (c) 1993,2004 Sun Microsystems or
+  - Copyright (c) 1994 David Burren. It is licensed under a BSD license.
+  - Copyright (c) 2001-2008 Ville Laurikari and licensed
+  - Copyright (c) 2003-2009 Bruce D. Evans or
+  - Copyright (c) 2003-2009 Steven G. Kargl or
+  - Copyright (c) 2003-2011 David Schultz or
+  - Copyright (c) 2005-2014 Rich Felker, et al.
+  - Copyright (c) 2008 
+  - Copyright (c) 2008 Stephen L. Moshier
+  - Copyright (c) 2011 
+  - Copyright (c) 2011 Szabolcs Nagy and
+- LICENSES/PYUPGRADE_LICENSE
+  - Copyright (c) 2017 Anthony Sottile
+- LICENSES/SAS7BDAT_LICENSE
+  - Copyright (c) 2015 Jared Hobbs
+- pandas/_libs/src/klib/khash.h
+  - Copyright (c) 2008, 2009, 2011 by Attractive Chaos <attractor@live.co.uk>
+--------------------------------------------------------------------------------
+
+* Apache-2.0 *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/DATEUTIL_LICENSE
+  - Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+  - Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+  - Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+  - Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+  - Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+  - Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- LICENSES/OTHER
+  - Copyright (c) 2010 Albert Sweigart
+  - Copyright (c) 2010-2012 Archipel Asset Management AB.
+  - Copyright (c) 2012 Google Inc.
+- LICENSES/PACKAGING_LICENSE
+  - Copyright (c)  Donald Stufft and individual contributors.
+- LICENSES/XARRAY_LICENSE
+  - Copyright (c) 2014-2019 xarray Developers
+- pandas/util/version/__init__.py
+--------------------------------------------------------------------------------
+
+* mit-nagy *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/MUSL_LICENSE
+  - Copyright (c)  Some source modules may fall in
+  - Copyright (c)  comments are original works
+  - Copyright (c)  status.
+  - Copyright (c) 1993,2004 Sun Microsystems or
+  - Copyright (c) 1994 David Burren. It is licensed under a BSD license.
+  - Copyright (c) 2001-2008 Ville Laurikari and licensed
+  - Copyright (c) 2003-2009 Bruce D. Evans or
+  - Copyright (c) 2003-2009 Steven G. Kargl or
+  - Copyright (c) 2003-2011 David Schultz or
+  - Copyright (c) 2005-2014 Rich Felker, et al.
+  - Copyright (c) 2008 
+  - Copyright (c) 2008 Stephen L. Moshier
+  - Copyright (c) 2011 
+  - Copyright (c) 2011 Szabolcs Nagy and
+--------------------------------------------------------------------------------
+
+* Python-2.0 *
+--------------------------------------------------------------------------------
+File matches:
+- LICENSES/PSF_LICENSE
+  - Copyright (c)  
+  - Copyright (c)  i.e., "Copyright (c)
+  - Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+  - Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+--------------------------------------------------------------------------------
+
+* BSD-2-Clause *
+--------------------------------------------------------------------------------
+File matches:
+- AUTHORS.md
+  - Copyright (c)  Policy
+  - Copyright (c)  model. Each contributor maintains copyright
+  - Copyright (c)  of any single
+  - Copyright (c)  of the
+  - Copyright (c)  on,
+  - Copyright (c) 2008-2011 AQR Capital Management, LLC
+  - Copyright (c) 2011-2012 Lambda Foundry, Inc.
+  - Copyright (c) 2011-2012 PyData Development Team
+  - Copyright (c) 2012 PyData Development Team
+- LICENSES/OTHER
+  - Copyright (c) 2010 Albert Sweigart
+  - Copyright (c) 2010-2012 Archipel Asset Management AB.
+  - Copyright (c) 2012 Google Inc.
+- LICENSES/PACKAGING_LICENSE
+  - Copyright (c)  Donald Stufft and individual contributors.
+- pandas/_libs/src/inline_helper.h
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/parse_helper.h
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/parser/io.c
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/parser/io.h
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/skiplist.h
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/src/ujson/python/date_conversions.c
+  - Copyright (c) 2020 PyData Development Team
+- pandas/_libs/src/ujson/python/date_conversions.h
+  - Copyright (c) 2020 PyData Development Team
+- pandas/_libs/tslibs/src/datetime/np_datetime_strings.c
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2011 by Enthought, Inc.
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/tslibs/src/datetime/np_datetime_strings.h
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2011 by Enthought, Inc.
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/tslibs/src/datetime/np_datetime.c
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2016 PyData Development Team
+- pandas/_libs/tslibs/src/datetime/np_datetime.h
+  - Copyright (c) 2005-2011 NumPy Developers
+  - Copyright (c) 2016 PyData Development Team
+--------------------------------------------------------------------------------
+
+* Copyrights *
+BSD-3-Clause
+- Copyright (c) 2008-2011 AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+- Copyright (c) 2005-2011 NumPy Developers.
+- Copyright (c) 2012 Lambda Foundry, Inc., except where noted
+- Copyright (c) 2002 Michael Ringgaard. All rights reserved.
+- Copyright (c) 2010-2012 Archipel Asset Management AB.
+- Copyright (c) 2012 Google Inc.
+- Copyright (c) 2010 Albert Sweigart
+- Copyright (c) 2011-2023 Open source contributors.
+- Copyright (c) 2011-2013 ESN Social Software AB and Jonas Tarnstrom
+- Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights
+- Copyright (c) 1988-1993 The Regents of the University of California.
+- Copyright (c) 1994 Sun Microsystems, Inc.
+- Copyright (c) 2007 Nick Galbreath -- nickg [at] modp [dot] com. All rights reserved.
+- Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+- Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+- Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+- Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+- Copyright (c) 2001, 2002 Enthought, Inc.
+- Copyright (c) 2003-2012 SciPy Developers.
+MIT
+- Copyright (c) 2019 Hadley Wickham; RStudio; and Evan Miller
+- Copyright (c) 2008, 2009, 2011 by Attractive Chaos <attractor@live.co.uk>
+- Copyright (c) 2008 Attractive Chaos <attractor@live.co.uk>
+- Copyright (c) 2005-2014 Rich Felker, et al.
+- Copyright (c) 2001-2008 Ville Laurikari and licensed
+- Copyright (c) 1993,2004 Sun Microsystems or
+- Copyright (c) 2003-2011 David Schultz or
+- Copyright (c) 2003-2009 Steven G. Kargl or
+- Copyright (c) 2003-2009 Bruce D. Evans or
+- Copyright (c) 2008 Stephen L. Moshier
+- Copyright (c) 2008 
+- Copyright (c) 1994 David Burren. It is licensed under a BSD license.
+- Copyright (c) 2011 
+- Copyright (c) 2011 Szabolcs Nagy and
+- Copyright (c)  status.
+- Copyright (c)  comments are original works
+- Copyright (c)  Some source modules may fall in
+- Copyright (c) 2017 Anthony Sottile
+- Copyright (c) 2015 Jared Hobbs
+Apache-2.0
+- Copyright (c) 2017 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2010-2012 Archipel Asset Management AB.
+- Copyright (c) 2012 Google Inc.
+- Copyright (c) 2010 Albert Sweigart
+- Copyright (c) 2017 dateutil contributors (see AUTHORS file)
+- Copyright (c) 2003-2011 Gustavo Niemeyer <gustavo@niemeyer.net>
+- Copyright (c) 2012-2014 Tomi Pieviläinen <tomi.pievilainen@iki.fi>
+- Copyright (c) 2014-2016 Yaron de Leeuw <me@jarondl.net>
+- Copyright (c) 2015 Paul Ganssle <paul@ganssle.io>
+- Copyright (c) 2015 dateutil contributors (see AUTHORS file)
+- Copyright (c)  Donald Stufft and individual contributors.
+- Copyright (c) 2014-2019 xarray Developers
+mit-nagy
+- Copyright (c) 2005-2014 Rich Felker, et al.
+- Copyright (c) 2001-2008 Ville Laurikari and licensed
+- Copyright (c) 1993,2004 Sun Microsystems or
+- Copyright (c) 2003-2011 David Schultz or
+- Copyright (c) 2003-2009 Steven G. Kargl or
+- Copyright (c) 2003-2009 Bruce D. Evans or
+- Copyright (c) 2008 Stephen L. Moshier
+- Copyright (c) 2008 
+- Copyright (c) 1994 David Burren. It is licensed under a BSD license.
+- Copyright (c) 2011 
+- Copyright (c) 2011 Szabolcs Nagy and
+- Copyright (c)  status.
+- Copyright (c)  comments are original works
+- Copyright (c)  Some source modules may fall in
+Python-2.0
+- Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 
+- Copyright (c)  i.e., "Copyright (c)
+- Copyright (c)  
+- Copyright (c) 1991 - 1995 Stichting Mathematisch Centrum Amsterdam,
+BSD-2-Clause
+- Copyright (c) 2008-2011 AQR Capital Management, LLC
+- Copyright (c) 2016 PyData Development Team
+- Copyright (c) 2005-2011 NumPy Developers
+- Copyright (c) 2011-2012 Lambda Foundry, Inc.
+- Copyright (c) 2011-2012 PyData Development Team
+- Copyright (c)  Policy
+- Copyright (c)  model. Each contributor maintains copyright
+- Copyright (c)  of any single
+- Copyright (c)  of the
+- Copyright (c)  on,
+- Copyright (c) 2012 PyData Development Team
+- Copyright (c) 2020 PyData Development Team
+- Copyright (c) 2011 by Enthought, Inc.
+- Copyright (c)  Donald Stufft and individual contributors.
+- Copyright (c) 2010-2012 Archipel Asset Management AB.
+- Copyright (c) 2012 Google Inc.
+- Copyright (c) 2010 Albert Sweigart
+
+* Package Info *
+
+Authors: The Pandas Development Team <pandas-dev@python.org>
+Package Manager: Pip
+Project URL: https://pypi.org/project/pandas/
+Package Download URL: https://files.pythonhosted.org/packages/9f/12/0b6bdd627b99cb10816956c1047b0733ef33b61a84e3420faf4d3202df06/pandas-2.0.0.tar.gz
+Dependency Path: pandas
+
+--------------------------------------------------------------------------------
+Package Title: streamlit (1.37.0)
+
+Package Locator: pip+streamlit$1.37.0
+
+Package Depth: Direct
+--------------------------------------------------------------------------------
+
+A faster way to build and share data apps
+
+* Declared Licenses *
+Apache-2.0
+--------------------------------------------------------------------------------
+File matches:
+- PKG-INFO
+- setup.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit.egg-info/PKG-INFO
+- streamlit/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/__main__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/case_converters.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/cli_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/code_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/color_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/column_config.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/commands/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/commands/execution_control.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/commands/experimental_query_params.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/commands/logo.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/commands/navigation.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/commands/page_config.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/lib/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/lib/local_component_registry.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/types/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/types/base_component_registry.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/types/base_custom_component.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/v1/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/v1/component_arrow.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/v1/component_registry.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/v1/components.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/components/v1/custom_component.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/config_option.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/config_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/config.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/connections/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/connections/base_connection.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/connections/snowflake_connection.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/connections/snowpark_connection.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/connections/sql_connection.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/connections/util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/constants.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/cursor.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/dataframe_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/delta_generator.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/deprecation_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/development.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/echo.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/alert.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/arrow.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/balloons.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/bokeh_chart.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/code.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/deck_gl_json_chart.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/dialog_decorator.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/doc_string.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/empty.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/exception.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/form.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/graphviz_chart.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/heading.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/html.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/iframe.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/image.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/json.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/layouts.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/built_in_chart_utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/column_config_utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/column_types.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/dialog.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/dicttools.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/event_utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/mutable_status_container.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/options_selector_utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/pandas_styler_utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/policies.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/streamlit_plotly_theme.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/subtitle_utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/lib/utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/map.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/markdown.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/media.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/metric.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/plotly_chart.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/progress.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/pyplot.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/snow.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/spinner.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/text.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/toast.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/vega_charts.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/button_group.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/button.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/camera_input.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/chat.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/checkbox.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/color_picker.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/data_editor.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/file_uploader.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/multiselect.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/number_input.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/radio.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/select_slider.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/selectbox.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/slider.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/text_widgets.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/widgets/time_widgets.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/elements/write.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/emojis.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/env_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/error_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/errors.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/external/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/external/langchain/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/external/langchain/streamlit_callback_handler.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/file_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/folder_black_list.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/git_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/Animation_Demo.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/Dataframe_Demo.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/Hello.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/Mapping_Demo.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/Plotting_Demo.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/streamlit_app.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/hello/utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/js_number.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/logger.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/material_icon_names.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/navigation/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/navigation/page.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/net_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/platform.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Alert_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/AppPage_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Arrow_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ArrowNamedDataSet_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ArrowVegaLiteChart_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Audio_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/AutoRerun_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/BackMsg_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Balloons_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Block_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/BokehChart_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Button_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ButtonGroup_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/CameraInput_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ChatInput_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Checkbox_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ClientState_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Code_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ColorPicker_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Common_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Components_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/DataFrame_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/DateInput_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/DeckGlJsonChart_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Delta_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/DocString_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/DownloadButton_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Element_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Empty_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Exception_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Favicon_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/FileUploader_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ForwardMsg_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/GitInfo_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/GraphVizChart_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Heading_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Html_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/IFrame_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Image_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Json_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/LabelVisibilityMessage_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/LinkButton_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Logo_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Markdown_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Metric_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/MultiSelect_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/NamedDataSet_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Navigation_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/NewSession_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/NumberInput_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/PageConfig_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/PageInfo_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/PageLink_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/PageNotFound_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/PageProfile_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/PagesChanged_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/ParentMessage_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/PlotlyChart_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Progress_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Radio_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/RootContainer_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Selectbox_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/SessionEvent_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/SessionStatus_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Skeleton_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Slider_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Snow_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Spinner_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Text_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/TextArea_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/TextInput_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/TimeInput_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Toast_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/VegaLiteChart_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/Video_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/proto/WidgetStates_pb2.pyi
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/app_session.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/cache_data_api.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/cache_errors.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/cache_resource_api.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/cache_type.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/cache_utils.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/cached_message_replay.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/hashing.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/legacy_cache_api.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/storage/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/storage/cache_storage_protocol.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/storage/dummy_cache_storage.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/storage/in_memory_cache_storage_wrapper.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/caching/storage/local_disk_cache_storage.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/connection_factory.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/context.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/credentials.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/forward_msg_cache.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/forward_msg_queue.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/fragment.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/media_file_manager.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/media_file_storage.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/memory_media_file_storage.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/memory_session_storage.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/memory_uploaded_file_manager.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/metrics_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/pages_manager.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/runtime_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/runtime.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/script_data.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/exceptions.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/exec_code.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/magic_funcs.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/magic.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/script_cache.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/script_requests.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/script_run_context.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/scriptrunner/script_runner.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/secrets.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/session_manager.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/common.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/query_params_proxy.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/query_params.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/safe_session_state.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/session_state_proxy.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/session_state.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/state/widgets.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/stats.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/uploaded_file_manager.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/runtime/websocket_session_manager.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/source_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/static/static/js/3466.05d62820.chunk.js.LICENSE.txt
+  - Copyright (c) 2009 The Closure Library Authors
+  - Copyright (c) 2016 Jorik Tangelder;
+  - Copyright (c) 2020 Daniel Wirtz / The long.js Authors.
+- streamlit/static/static/js/7323.b74cc85b.chunk.js.LICENSE.txt
+  - Copyright (c)  JS Foundation and other contributors
+  - Copyright (c)  Microsoft Corporation.
+  - Copyright (c)  OpenJS Foundation and other contributors
+  - Copyright (c)  jQuery Foundation and other contributors
+  - Copyright (c) 2010 Three Dub Media - http://threedubmedia.com
+  - Copyright (c) 2012 - 2022 Anaconda, Inc., and Bokeh Contributors
+  - Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+  - Copyright (c) 2016 Jorik Tangelder;
+- streamlit/string_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/temporary_directory.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/testing/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/testing/v1/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/testing/v1/app_test.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/testing/v1/element_tree.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/testing/v1/local_script_runner.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/testing/v1/util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/time_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/type_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/url_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/user_info.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/version.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/watcher/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/watcher/event_based_path_watcher.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/watcher/local_sources_watcher.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/watcher/path_watcher.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/watcher/polling_path_watcher.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/watcher/util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/bootstrap.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/cache_storage_manager_config.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/cli.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/__init__.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/app_static_file_handler.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/browser_websocket_handler.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/component_request_handler.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/media_file_handler.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/routes.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/server_util.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/server.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/stats_request_handler.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/upload_file_request_handler.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- streamlit/web/server/websocket_headers.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- tests/testutil.py
+  - Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+--------------------------------------------------------------------------------
+
+* Other Licenses *
+0BSD, BSD-3-Clause, MIT
+
+* 0BSD *
+--------------------------------------------------------------------------------
+File matches:
+- streamlit/static/static/js/7323.b74cc85b.chunk.js.LICENSE.txt
+  - Copyright (c)  JS Foundation and other contributors
+  - Copyright (c)  Microsoft Corporation.
+  - Copyright (c)  OpenJS Foundation and other contributors
+  - Copyright (c)  jQuery Foundation and other contributors
+  - Copyright (c) 2010 Three Dub Media - http://threedubmedia.com
+  - Copyright (c) 2012 - 2022 Anaconda, Inc., and Bokeh Contributors
+  - Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+  - Copyright (c) 2016 Jorik Tangelder;
+--------------------------------------------------------------------------------
+
+* BSD-3-Clause *
+--------------------------------------------------------------------------------
+File matches:
+- streamlit/static/static/js/7323.b74cc85b.chunk.js.LICENSE.txt
+  - Copyright (c)  JS Foundation and other contributors
+  - Copyright (c)  Microsoft Corporation.
+  - Copyright (c)  OpenJS Foundation and other contributors
+  - Copyright (c)  jQuery Foundation and other contributors
+  - Copyright (c) 2010 Three Dub Media - http://threedubmedia.com
+  - Copyright (c) 2012 - 2022 Anaconda, Inc., and Bokeh Contributors
+  - Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+  - Copyright (c) 2016 Jorik Tangelder;
+- streamlit/vendor/ipython/modified_sys_path.py
+  - Copyright (c) 2001 Janko Hauser <jhauser@zscout.de>
+  - Copyright (c) 2001 Nathaniel Gray <n8gray@caltech.edu>
+  - Copyright (c) 2001-2007 Fernando Perez <fernando.perez@colorado.edu>
+  - Copyright (c) 2008 Present, IPython Development Team
+- streamlit/vendor/pympler/asizeof.py
+  - Copyright (c) 2002-2022 ProphICy Semiconductor, Inc.
+--------------------------------------------------------------------------------
+
+* MIT *
+--------------------------------------------------------------------------------
+File matches:
+- streamlit/static/static/js/main.d55f6a3c.js.LICENSE.txt
+  - Copyright (c)  Facebook, Inc. and its affiliates.
+  - Copyright (c)  JS Foundation and other contributors
+  - Copyright (c) 2018 Jed Watson.
+--------------------------------------------------------------------------------
+
+* Copyrights *
+Apache-2.0
+- Copyright (c)  Streamlit Inc. (2018-2022) Snowflake Inc. (2022-2024)
+- Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+- Copyright (c)  JS Foundation and other contributors
+- Copyright (c)  OpenJS Foundation and other contributors
+- Copyright (c)  jQuery Foundation and other contributors
+- Copyright (c) 2010 Three Dub Media - http://threedubmedia.com
+- Copyright (c) 2012 - 2022 Anaconda, Inc., and Bokeh Contributors
+- Copyright (c)  Microsoft Corporation.
+- Copyright (c) 2016 Jorik Tangelder;
+- Copyright (c) 2009 The Closure Library Authors
+- Copyright (c) 2020 Daniel Wirtz / The long.js Authors.
+0BSD
+- Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+- Copyright (c)  JS Foundation and other contributors
+- Copyright (c)  OpenJS Foundation and other contributors
+- Copyright (c)  jQuery Foundation and other contributors
+- Copyright (c) 2010 Three Dub Media - http://threedubmedia.com
+- Copyright (c) 2012 - 2022 Anaconda, Inc., and Bokeh Contributors
+- Copyright (c)  Microsoft Corporation.
+- Copyright (c) 2016 Jorik Tangelder;
+BSD-3-Clause
+- Copyright (c) 2012-2017 Kirollos Risk (http://kiro.me)
+- Copyright (c) 2002-2022 ProphICy Semiconductor, Inc.
+- Copyright (c)  JS Foundation and other contributors
+- Copyright (c)  OpenJS Foundation and other contributors
+- Copyright (c)  jQuery Foundation and other contributors
+- Copyright (c) 2010 Three Dub Media - http://threedubmedia.com
+- Copyright (c) 2012 - 2022 Anaconda, Inc., and Bokeh Contributors
+- Copyright (c)  Microsoft Corporation.
+- Copyright (c) 2016 Jorik Tangelder;
+- Copyright (c) 2008 Present, IPython Development Team
+- Copyright (c) 2001-2007 Fernando Perez <fernando.perez@colorado.edu>
+- Copyright (c) 2001 Janko Hauser <jhauser@zscout.de>
+- Copyright (c) 2001 Nathaniel Gray <n8gray@caltech.edu>
+MIT
+- Copyright (c) 2018 Jed Watson.
+- Copyright (c)  Facebook, Inc. and its affiliates.
+- Copyright (c)  JS Foundation and other contributors
+
+* Package Info *
+
+Authors: Snowflake Inc <hello@streamlit.io>
+Package Manager: Pip
+Project URL: https://pypi.org/project/streamlit/
+Package Download URL: https://files.pythonhosted.org/packages/68/b1/3fd1ae1e313f819a9e57272bd820130dd38e43bcbe9846ceba89345d45a6/streamlit-1.37.0.tar.gz
+Dependency Path: streamlit
+
+
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+
+Report Generated by FOSSA on 2026-10-7
