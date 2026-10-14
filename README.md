@@ -1,13 +1,12 @@
 # Cloudera Blueprint: Network Anomaly Detection (Agentic SOC)
 
+[![Author-Athul Prasad](https://img.shields.io/badge/Author-Athul%20Prasad-555555)](https://github.com/athpra)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](requirements.txt)
 [![Cloudera Blueprint](https://img.shields.io/badge/Cloudera-Blueprint-f96702.svg)](METADATA.yaml)
-[![Author-Athul Prasad](https://img.shields.io/badge/Author-Athul%20Prasad-555555)]()
 [![Stars](https://img.shields.io/github/stars/cloudera-applied-ai/AI_Blueprint_Network-Anomaly-Detection?logo=github&cacheSeconds=300)](https://github.com/cloudera-applied-ai/AI_Blueprint_Network-Anomaly-Detection/stargazers)
 [![Forks](https://img.shields.io/github/forks/cloudera-applied-ai/AI_Blueprint_Network-Anomaly-Detection?logo=github&cacheSeconds=300)](https://github.com/cloudera-applied-ai/AI_Blueprint_Network-Anomaly-Detection/network/members)
 [![Reproducible](https://img.shields.io/badge/Reproducible-Yes-success.svg)](docs/evals.md)
-
 
 <!-- <p align="center">
         <img src="assets/icon.png" width="400" alt="Agentic SOC Logo" />
