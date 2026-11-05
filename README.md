@@ -38,6 +38,8 @@ log data, and is built purely to exercise Cloudera's model-serving stack end-to-
 
 ## Demo
 
+Check out the Reprise demo to see it in action: https://app.getreprise.com/present/mnJAbQ6
+
 This is the pipeline running live end-to-end on a
 deployed Cloudera AI Workbench Application:
 
@@ -70,7 +72,6 @@ Run it yourself locally (see **Quickstart** below) or deploy it as a Cloudera AI
 Workbench Application — the **Try it** section on the home page links to every
 interactive page shown above.
 
-Check out the Reprise demo to see it in action: https://app.getreprise.com/present/mnJAbQ6
 
 ## Use Case
 
